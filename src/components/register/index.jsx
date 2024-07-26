@@ -94,7 +94,7 @@ const Register = () => {
                 onClick={() => setChangeValue("uzb")}
               >
                 <img
-                  src="/src/assets/images/uzb-flag.png"
+                  src={uzb}
                   alt="uzb"
                   width={20}
                 />
@@ -105,8 +105,8 @@ const Register = () => {
                 onClick={() => setChangeValue("rus")}
               >
                 <img
-                  src="/src/assets/images/rus-flag.png"
-                  alt="uzb"
+                  src={rus}
+                  alt="rus"
                   width={20}
                 />
               </button>
@@ -115,8 +115,8 @@ const Register = () => {
                 onClick={() => setChangeValue("eng")}
               >
                 <img
-                  src="/src/assets/images/eng-flag.png"
-                  alt="uzb"
+                  src={eng}
+                  alt="eng"
                   width={20}
                 />
               </button>
