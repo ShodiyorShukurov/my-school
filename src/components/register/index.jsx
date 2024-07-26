@@ -12,6 +12,11 @@ const Register = () => {
   const {
     changeValue,
     setChangeValue,
+    setName,
+    phone,
+    setPhone,
+    errors,
+    handleSubmit,
   } = useRegister();
 
   return (
@@ -47,7 +52,14 @@ const Register = () => {
 
           <h4 className="site-subtitle">{data[changeValue].sub_title}</h4>
 
-          <Form />
+          <Form
+            changeValue={changeValue}
+            setName={setName}
+            phone={phone}
+            setPhone={setPhone}
+            errors={errors}
+            handleSubmit={handleSubmit}
+          />
 
           <div className="language-btns">
             <button
@@ -93,32 +105,20 @@ const Register = () => {
                 className={changeValue === "uzb" ? "lang" : ""}
                 onClick={() => setChangeValue("uzb")}
               >
-                <img
-                  src={uzb}
-                  alt="uzb"
-                  width={20}
-                />
+                <img src={uzb} alt="uzb" width={20} />
               </button>
               <button
                 className={changeValue === "rus" ? "lang" : ""}
                 style={{ margin: "0 10px" }}
                 onClick={() => setChangeValue("rus")}
               >
-                <img
-                  src={rus}
-                  alt="rus"
-                  width={20}
-                />
+                <img src={rus} alt="rus" width={20} />
               </button>
               <button
                 className={changeValue === "eng" ? "lang" : ""}
                 onClick={() => setChangeValue("eng")}
               >
-                <img
-                  src={eng}
-                  alt="eng"
-                  width={20}
-                />
+                <img src={eng} alt="eng" width={20} />
               </button>
             </div>
           </div>

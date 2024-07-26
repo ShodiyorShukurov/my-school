@@ -4,10 +4,16 @@ import { useNavigate } from "react-router-dom";
 
 const useRegister = () => {
   const navigate = useNavigate();
-  const [changeValue, setChangeValue] = React.useState("uzb");
+  const [changeValue, setChangeValue] = React.useState(
+    localStorage.getItem("lang") || "uzb"
+  );
   const [name, setName] = React.useState("");
   const [phone, setPhone] = React.useState("");
   const [errors, setErrors] = React.useState({});
+
+  React.useEffect(() => {
+    localStorage.setItem("lang", changeValue);
+  }, [changeValue]);
 
   const validateForm = () => {
     const newErrors = {};

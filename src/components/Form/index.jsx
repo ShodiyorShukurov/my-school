@@ -1,11 +1,16 @@
+import React from "react";
 import InputMask from "react-input-mask";
-import useRegister from "../../hooks/useRegister";
+import PropTypes from 'prop-types';
 import { data } from "../../Mock";
 
-const Form = () => {
-  const { changeValue, setName, phone, setPhone, errors, handleSubmit } =
-    useRegister();
-
+const Form = ({
+  changeValue,
+  setName,
+  phone,
+  setPhone,
+  errors,
+  handleSubmit,
+}) => {
   return (
     <form onSubmit={(evt) => handleSubmit(evt)}>
       <input
@@ -31,6 +36,15 @@ const Form = () => {
       <button>{data[changeValue].button_text}</button>
     </form>
   );
+};
+
+Form.propTypes = {
+  changeValue: PropTypes.string,
+  setName: PropTypes.func,
+  phone: PropTypes.string,
+  setPhone: PropTypes.func,
+  errors: PropTypes.object,
+  handleSubmit: PropTypes.func,
 };
 
 export default Form;
