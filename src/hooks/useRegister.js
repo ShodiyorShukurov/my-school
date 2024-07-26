@@ -1,7 +1,9 @@
 import React from "react";
 import { data } from "../Mock";
+import { useNavigate } from "react-router-dom";
 
 const useRegister = () => {
+  const navigate = useNavigate();
   const [changeValue, setChangeValue] = React.useState("uzb");
   const [name, setName] = React.useState("");
   const [phone, setPhone] = React.useState("");
@@ -24,33 +26,34 @@ const useRegister = () => {
     return Object.keys(newErrors).length === 0;
   };
 
- const handleSubmit = async (e) => {
-   e.preventDefault();
-   if (validateForm()) {
-     try {
-       const rawResponse = await fetch(
-         "https://api.ept.myschoollc.uz/api/v1/student/register",
-         {
-           method: "POST",
-           headers: {
-             "Content-Type": "application/json",
-           },
-           body: JSON.stringify({ name: name, phone: phone }),
-         }
-       );
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (validateForm()) {
+      try {
+        const rawResponse = await fetch(
+          "https://api.ept.myschoollc.uz/api/v1/student/register",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ name: name, phone_number: phone }),
+          }
+        );
 
-       if (!rawResponse.ok) {
-         throw new Error(`HTTP error! status: ${rawResponse.status}`);
-       }
+        if (!rawResponse.ok) {
+          throw new Error(`HTTP error! status: ${rawResponse.status}`);
+        }
 
-       const content = await rawResponse.json();
-       console.log(content);
-     } catch (error) {
-       console.error("Error during submission:", error);
-     }
-   }
- };
-
+        const content = await rawResponse.json();
+        if (content.status === 200) {
+          navigate("/thankyou");
+        }
+      } catch (error) {
+        console.error("Error during submission:", error);
+      }
+    }
+  };
 
   return {
     changeValue,
