@@ -1,5 +1,8 @@
 import { Col, Row } from "antd";
 import logo from "/src/assets/images/logo original.png";
+import uzb from "../../assets/images/uzb-flag.png";
+import rus from "../../assets/images/rus-flag.png";
+import eng from "../../assets/images/eng-flag.png";
 import CarouselPage from "../corusel";
 import { data } from "../../Mock";
 import Form from "../Form";
@@ -51,7 +54,7 @@ const Register = () => {
               className={changeValue === "uzb" ? "lang" : ""}
               onClick={() => setChangeValue("uzb")}
             >
-              <img src="/src/assets/images/uzb-flag.png" alt="uzb" width={20} />
+              <img src={uzb} alt="uzb" width={20} />
               O&apos;zbekcha
             </button>
             <button
@@ -59,14 +62,14 @@ const Register = () => {
               style={{ margin: "0 10px" }}
               onClick={() => setChangeValue("rus")}
             >
-              <img src="/src/assets/images/rus-flag.png" alt="uzb" width={20} />
+              <img src={rus} alt="rus" width={20} />
               Русский
             </button>
             <button
               className={changeValue === "eng" ? "lang" : ""}
               onClick={() => setChangeValue("eng")}
             >
-              <img src="/src/assets/images/eng-flag.png" alt="uzb" width={20} />
+              <img src={eng} alt="eng" width={20} />
               English
             </button>
           </div>

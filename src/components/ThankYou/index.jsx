@@ -1,5 +1,8 @@
 import useRegister from "../../hooks/useRegister";
 import logo from "/src/assets/images/logo original.png";
+import uzb from "../../assets/images/uzb-flag.png";
+import rus from "../../assets/images/rus-flag.png";
+import eng from "../../assets/images/eng-flag.png";
 import { data } from "../../Mock";
 
 const ThankYou = () => {
@@ -24,7 +27,7 @@ const ThankYou = () => {
               className={changeValue === "uzb" ? "lang" : ""}
               onClick={() => setChangeValue("uzb")}
             >
-              <img src="/src/assets/images/uzb-flag.png" alt="uzb" width={20} />
+              <img src={uzb} alt="uzb" width={20} />
               O&apos;zbekcha
             </button>
             <button
@@ -32,14 +35,14 @@ const ThankYou = () => {
               style={{ margin: "0 10px" }}
               onClick={() => setChangeValue("rus")}
             >
-              <img src="/src/assets/images/rus-flag.png" alt="uzb" width={20} />
+              <img src={rus} alt="rus" width={20} />
               Русский
             </button>
             <button
               className={changeValue === "eng" ? "lang" : ""}
               onClick={() => setChangeValue("eng")}
             >
-              <img src="/src/assets/images/eng-flag.png" alt="uzb" width={20} />
+              <img src={eng} alt="eng" width={20} />
               English
             </button>
           </div>
@@ -49,20 +52,20 @@ const ThankYou = () => {
               className={changeValue === "uzb" ? "lang" : ""}
               onClick={() => setChangeValue("uzb")}
             >
-              <img src="/src/assets/images/uzb-flag.png" alt="uzb" width={20} />
+              <img src={uzb} alt="uzb" width={20} />
             </button>
             <button
               className={changeValue === "rus" ? "lang" : ""}
               style={{ margin: "0 10px" }}
               onClick={() => setChangeValue("rus")}
             >
-              <img src="/src/assets/images/rus-flag.png" alt="uzb" width={20} />
+              <img src={rus} alt="rus" width={20} />
             </button>
             <button
               className={changeValue === "eng" ? "lang" : ""}
               onClick={() => setChangeValue("eng")}
             >
-              <img src="/src/assets/images/eng-flag.png" alt="uzb" width={20} />
+              <img src={eng} alt="eng" width={20} />
             </button>
           </div>
         </header>
