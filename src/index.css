@@ -1,0 +1,380 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/open-sans-v40-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("./assets/fonts/open-sans-v40-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./assets/fonts/open-sans-v40-latin-regular.woff2")
+      format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("./assets/fonts/open-sans-v40-latin-regular.woff") format("woff"),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+      url("./assets/fonts/open-sans-v40-latin-regular.ttf") format("truetype"),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url("./assets/fonts/open-sans-v40-latin-regular.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
+
+/* ROOT */
+:root {
+  /* --header-bg-color: #fff; */
+  /* --main-bg-color: #fff; */
+  /* --main-text-color: #fff; */
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px 10px 30px 10px;
+}
+
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-title {
+  width: 100%;
+  max-width: 516px;
+  font-family: Inter, sans-serif !important;
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: 800;
+  color: #373435;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+.site-title span {
+  text-transform: uppercase;
+  color: #ff1d19;
+}
+
+.site-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #373435;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+form input {
+  font-size: 16px;
+  line-height: 19px;
+  color: #141416;
+  width: 100%;
+  height: 56px;
+  padding: 16px;
+  background-color: #f7f7f7;
+  border: 1px solid #f4f5f6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  outline: none;
+}
+
+form input:hover {
+  border-color: #ff1d19;
+}
+
+form button {
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 10px;
+  padding: 16px;
+  border: 1px solid transparent;
+  background-color: #ff1d19;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.error {
+  border: 2px solid red;
+}
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.language-btns {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.language-btns button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 0;
+  border-radius: 12px;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.corusel-item {
+  color: #fff;
+  text-align: center;
+  background: #364d79;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.thank-you {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.thank-you__site-header__end button {
+  padding: 12px 24px;
+}
+
+.thank-you__section {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.thank-you__section-title {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.thank-you__section-subtitle {
+  font-weight: 400;
+  color: #777e91;
+  margin-top: 0;
+  max-width: 470px;
+  margin-bottom: 32px;
+}
+
+.thank-you__section-social {
+  font-size: 15px;
+  font-weight: 400;
+  color: #353945;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.thank-you__section a {
+  background-color: #b1b5c3;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1000px) {
+  .register-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .register-row > div:first-child {
+    padding-right: 20px;
+  }
+
+  .site-header {
+    display: none;
+  }
+
+  .site-logo {
+    display: inline-block;
+  }
+
+  .site-title {
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 12px;
+  }
+
+  .site-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+
+  .language-btns {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .corusel-item {
+    height: 635px;
+    color: #fff;
+    line-height: 635px;
+    text-align: center;
+    background: #364d79;
+    margin: 0;
+    border-radius: 10px;
+  }
+
+  .site-header__end {
+    display: none;
+  }
+
+  .thank-you__section-title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .thank-you__section-subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .full-width-col {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .corusel-item {
+    height: 295px;
+    line-height: 295px;
+  }
+
+  .register-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .register-row > div:first-child {
+    order: 2;
+  }
+
+  .register-row > div:last-child {
+    order: 1;
+  }
+
+  .site-logo {
+    display: none;
+  }
+
+  .language-btns {
+    display: none;
+  }
+
+  .site-header__end button {
+    height: 32px;
+    width: 32px;
+    border-radius: 8px;
+    padding: 6px;
+    border: none;
+  }
+
+  .site-title {
+    width: 100%;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 900;
+    margin-bottom: 4px;
+    margin-top: 8px;
+  }
+
+  .site-subtitle {
+    font-size: 14px;
+    line-height: 130%;
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+
+  .thank-you_logo {
+    width: 120px;
+  }
+
+  .thank-you__section-title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .thank-you__section-subtitle {
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.lang {
+  background-color: #353945;
+  color: #fff;
+}
