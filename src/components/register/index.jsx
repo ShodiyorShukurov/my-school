@@ -1,5 +1,5 @@
 import { Col, Row } from "antd";
-import logo from "/src/assets/images/logo original.png";
+import logo from "/src/assets/images/logo.svg";
 import uzb from "../../assets/images/uzb-flag.png";
 import rus from "../../assets/images/rus-flag.png";
 import eng from "../../assets/images/eng-flag.png";
@@ -29,7 +29,7 @@ const Register = () => {
           className="full-width-col"
         >
           <a href="/" className="site-logo">
-            <img src={logo} alt="MY SCHOOL" width={170} height={100} />
+            <img src={logo} alt="MY SCHOOL" width={184} height={44} />
           </a>
 
           {changeValue === "uzb" && (
@@ -51,7 +51,7 @@ const Register = () => {
             </h1>
           )}
 
-          <h4 className="site-subtitle">{data[changeValue].sub_title}</h4>
+          <p className="site-subtitle">{data[changeValue].sub_title}</p>
 
           <Form
             changeValue={changeValue}

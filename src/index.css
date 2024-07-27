@@ -176,10 +176,22 @@ form button {
   line-height: 20px;
 }
 
+.button-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.button-text span {
+  color: #ff1d19;
+}
+
 .corusel-item {
-  color: #fff;
+  /* color: #fff;
   text-align: center;
-  background: #364d79;
+  background: #364d79; */
   margin: 0;
   border-radius: 10px;
 }
@@ -198,8 +210,11 @@ form button {
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items:center;
+  width: 100%;
+  max-width: 470px;
+  margin: 0 auto;
 }
 
 .thank-you__section-title {
@@ -216,6 +231,27 @@ form button {
   margin-bottom: 32px;
 }
 
+.thank-you__section button {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  padding: 16px;
+  border: 1px solid transparent;
+  background-color: #ff1d19;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #fff;
+  margin-bottom:25px ;
+}
+
+.thank-you__section  a{
+  width: 100%;
+  height: 100%;
+}
+
 .thank-you__section-social {
   font-size: 15px;
   font-weight: 400;
@@ -223,7 +259,7 @@ form button {
   margin-top: 0;
   margin-bottom: 8px;
 }
-.thank-you__section a {
+.social-media a {
   background-color: #b1b5c3;
   height: 28px;
   width: 28px;
@@ -241,6 +277,9 @@ form button {
 
   .register-row > div:first-child {
     padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .site-header {
@@ -274,6 +313,8 @@ form button {
 
   .corusel-item {
     height: 635px;
+    width: 100%;
+    max-width: 560px;
     color: #fff;
     line-height: 635px;
     text-align: center;
@@ -307,11 +348,16 @@ form button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 8px;
   }
 
   .corusel-item {
+    margin-top: 8px;
     height: 295px;
     line-height: 295px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
   }
 
   .register-row {
@@ -349,7 +395,7 @@ form button {
     line-height: 30px;
     font-weight: 900;
     margin-bottom: 4px;
-    margin-top: 8px;
+    margin-top: 15px;
   }
 
   .site-subtitle {

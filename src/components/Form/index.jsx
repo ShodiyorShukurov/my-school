@@ -34,6 +34,10 @@ const Form = ({
       </InputMask>
       {errors.phone && <div className="error-message">{errors.phone}</div>}
       <button>{data[changeValue].button_text}</button>
+
+      <p className="button-text">
+        <span>*</span> {data[changeValue].text}
+      </p>
     </form>
   );
 };

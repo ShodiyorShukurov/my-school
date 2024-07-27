@@ -1,5 +1,5 @@
 import useRegister from "../../hooks/useRegister";
-import logo from "/src/assets/images/logo original.png";
+import logo from "/src/assets/images/logo.svg";
 import uzb from "../../assets/images/uzb-flag.png";
 import rus from "../../assets/images/rus-flag.png";
 import eng from "../../assets/images/eng-flag.png";
@@ -17,12 +17,15 @@ const ThankYou = () => {
                 className="thank-you_logo"
                 src={logo}
                 alt="MY SCHOOL"
-                width={170}
-                height={100}
+                width={194}
+                height={44}
               />
             </a>
           </div>
-          <div className="thank-you__site-header__end language-btns">
+          <div
+            className="thank-you__site-header__end language-btns"
+            style={{ margin: 0 }}
+          >
             <button
               className={changeValue === "uzb" ? "lang" : ""}
               onClick={() => setChangeValue("uzb")}
@@ -148,16 +151,23 @@ const ThankYou = () => {
               </g>
             </svg>
           </div>
+
           <h2 className="thank-you__section-title">
             {data[changeValue].thank_you_title}
           </h2>
+
           <p className="thank-you__section-subtitle">
             {data[changeValue].thank_you_subtitle}
           </p>
+
+          <a href="https://ept.myschoollc.uz/" target="_blank">
+            <button>{data[changeValue].thank_you_button}</button>
+          </a>
+
           <h5 className="thank-you__section-social">
             {data[changeValue].network}
           </h5>
-          <div style={{ display: "flex" }}>
+          <div className="social-media" style={{ display: "flex" }}>
             <a href="https://www.instagram.com/myschooluz.official/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

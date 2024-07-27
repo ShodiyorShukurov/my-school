@@ -1,5 +1,3 @@
-
-
 const uzb = {
   title_1: "INGLIZ TILI",
   title_2: " kurslarimizga ro’yxatdan o’ting!",
@@ -9,9 +7,11 @@ const uzb = {
   input_name: "«Ism» ni to'ldirishingiz kerak.",
   input_phone:
     "Telefon formati noto'g'ri. 998901234567 kabi bo'lishi kerak. Berilgan: 998",
+  text: "Darslar Toshkent shahrida eng qulay joylashuvlarda offlayn tarzda bo’lib o’tadi!",
   thank_you_title: "Yangi imkoniyatlar sari birinchi qadam bilan Tabriklaymiz!",
   thank_you_subtitle:
     "Batafsil ma'lumot berish uchun izning menejerlarimiz tez orada siz bilan bog'lanadi.",
+  thank_you_button: "Bilimingizni sinab ko'ring!",
   network: "Bizning ijtimoiy tarmoqlar",
 };
 
@@ -24,9 +24,11 @@ const rus = {
   input_name: "Необходимо заполнить «Имя».",
   input_phone:
     "Неправильный формат телефона. Должно быть как 998901234567. Дано: 998",
+  text: "Занятия проходят оффлайн в самых удобных локациях Ташкента!",
   thank_you_title: "Поздравляем с первым шагом на пути к новым возможностям!",
   thank_you_subtitle:
     "Наши менеджеры свяжутся с вами в ближайшее время для предоставления дополнительной информации.",
+  thank_you_button: "Проверьте свои знания!",
   network: "Мы в соцсетях",
 };
 
@@ -38,9 +40,12 @@ const eng = {
   button_text: "Sign up",
   input_name: "«Name» field is required",
   input_phone: "Wrong phone format. Must be like 998901234567. Given: 998",
-  thank_you_title: "Super! This is a great step into the future!",
+  text: "Classes are held offline in the most convenient locations in Tashkent!",
+  thank_you_title:
+    "Congratulations on the first step towards new opportunities!",
   thank_you_subtitle:
     "Our trail managers will contact you shortly to provide more information.",
+  thank_you_button: "Test your knowledge!",
   network: "Our social networks",
 };
 
