@@ -45,8 +45,9 @@ const Register = () => {
           )}
           {changeValue === "eng" && (
             <h1 className="site-title">
-              {data.eng.title_2}
-              <span>{data.eng.title_1}</span>
+              {data.eng.title_2.slice(0, 16)}
+              <span>{data.eng.title_1}</span>{" "}
+              {data.eng.title_2.slice(15)}
             </h1>
           )}
 

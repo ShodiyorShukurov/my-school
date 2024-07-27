@@ -2,47 +2,45 @@
 
 const uzb = {
   title_1: "INGLIZ TILI",
-  title_2: " ni o'rganmoqchimisiz?",
-  sub_title:
-    "U holda raqamingizni qoldiring va biz barcha savollaringizga javob beramiz.",
+  title_2: " kurslarimizga ro’yxatdan o’ting!",
+  sub_title: "Ma'lumotlaringizni qoldiring va biz sizga qo'ng'iroq qilamiz!",
   placeholder: "Ismingiz",
-  button_text: "Yuborish",
+  button_text: "Ro'yxatdan o'tish",
   input_name: "«Ism» ni to'ldirishingiz kerak.",
   input_phone:
     "Telefon formati noto'g'ri. 998901234567 kabi bo'lishi kerak. Berilgan: 998",
-  thank_you_title: "Super! Bu kelajakka ajoyib qadam!",
+  thank_you_title: "Yangi imkoniyatlar sari birinchi qadam bilan Tabriklaymiz!",
   thank_you_subtitle:
-    "Bizning menejerlarimiz batafsil ma'lumot berish uchun tez orada siz bilan bog'lanadi.",
+    "Batafsil ma'lumot berish uchun izning menejerlarimiz tez orada siz bilan bog'lanadi.",
   network: "Bizning ijtimoiy tarmoqlar",
 };
 
 const rus = {
-  title_1: "Хочешь ",
-  title_2: "Английский?",
-  sub_title:
-    "Тогда отправь свой номер и мы перезвоним чтобы ответить на все вопросы.",
+  title_1: "Зарегистрируйтесь на наши курсы ",
+  title_2: "АНГЛИЙСКОГО ЯЗЫКА!",
+  sub_title: "Оставьте свои данные и мы вам перезвоним!",
   placeholder: "Имя",
-  button_text: "Отправить",
+  button_text: "Зарегистрироваться",
   input_name: "Необходимо заполнить «Имя».",
   input_phone:
     "Неправильный формат телефона. Должно быть как 998901234567. Дано: 998",
-  thank_you_title: "Супер! Это отличный шаг в будущее!",
+  thank_you_title: "Поздравляем с первым шагом на пути к новым возможностям!",
   thank_you_subtitle:
-    "Скоро наши менеджеры свяжутся для предоставления подробной информации.",
+    "Наши менеджеры свяжутся с вами в ближайшее время для предоставления дополнительной информации.",
   network: "Мы в соцсетях",
 };
 
 const eng = {
-  title_1: "ENGLISH?",
-  title_2: "Do you want to learn ",
-  sub_title: "Then leave your number and we will answer all your questions.",
+  title_1: "ENGLISH LANGUAGE",
+  title_2: "Sign up for our courses! ",
+  sub_title: "Leave your information and we will call you!",
   placeholder: "Name",
-  button_text: "Send",
+  button_text: "Sign up",
   input_name: "«Name» field is required",
   input_phone: "Wrong phone format. Must be like 998901234567. Given: 998",
   thank_you_title: "Super! This is a great step into the future!",
   thank_you_subtitle:
-    "Our managers will contact you shortly with further details.",
+    "Our trail managers will contact you shortly to provide more information.",
   network: "Our social networks",
 };
 
