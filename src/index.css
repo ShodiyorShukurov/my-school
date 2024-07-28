@@ -196,6 +196,7 @@ form button {
 .corusel-item {
   margin: 0;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .thank-you {
@@ -322,13 +323,11 @@ form button {
   .corusel-item {
     height: 635px;
     width: 100%;
-    max-width: 560px;
-    color: #fff;
-    line-height: 635px;
+    /* max-width: 560px; */
     text-align: center;
-    background: #364d79;
-    margin: 0;
-    border-radius: 10px;
+    /* background: #364d79; */
+    border-radius: 15px;
+    overflow: hidden;
   }
 
   .site-header__end {
@@ -362,9 +361,9 @@ form button {
   .corusel-item {
     margin-top: 8px;
     height: 295px;
-    line-height: 295px;
     width: 100%;
-    object-fit: cover;
+    
+    object-fit: contain;
     overflow: hidden;
   }
 
