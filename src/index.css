@@ -362,8 +362,6 @@ form button {
     margin-top: 8px;
     height: 295px;
     width: 100%;
-    
-    object-fit: contain;
     overflow: hidden;
   }
 
