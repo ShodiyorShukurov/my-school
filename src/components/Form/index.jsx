@@ -1,4 +1,3 @@
-import React from "react";
 import InputMask from "react-input-mask";
 import PropTypes from 'prop-types';
 import { data } from "../../Mock";
@@ -12,7 +11,7 @@ const Form = ({
   handleSubmit,
 }) => {
   return (
-    <form onSubmit={(evt) => handleSubmit(evt)}>
+    <form onSubmit={(evt) => handleSubmit(evt)} autoComplete="on">
       <input
         style={{ marginBottom: "10px" }}
         type="text"

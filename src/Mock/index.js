@@ -10,7 +10,7 @@ const uzb = {
   text: "Darslar Toshkent shahrida eng qulay joylashuvlarda offlayn tarzda bo’lib o’tadi!",
   thank_you_title: "Yangi imkoniyatlar sari birinchi qadam bilan Tabriklaymiz!",
   thank_you_subtitle:
-    "Batafsil ma'lumot berish uchun izning menejerlarimiz tez orada siz bilan bog'lanadi.",
+    "Batafsil ma'lumot berish uchun bizning menejerlarimiz tez orada siz bilan bog'lanadi.",
   thank_you_button: "Bilimingizni sinab ko'ring!",
   network: "Bizning ijtimoiy tarmoqlar",
 };
@@ -28,7 +28,6 @@ const rus = {
   thank_you_title: "Поздравляем с первым шагом на пути к новым возможностям!",
   thank_you_subtitle:
     "Наши менеджеры свяжутся с вами в ближайшее время для предоставления дополнительной информации.",
-  thank_you_button: "Проверьте свои знания!",
   network: "Мы в соцсетях",
 };
 
@@ -44,8 +43,7 @@ const eng = {
   thank_you_title:
     "Congratulations on the first step towards new opportunities!",
   thank_you_subtitle:
-    "Our trail managers will contact you shortly to provide more information.",
-  thank_you_button: "Test your knowledge!",
+    "Our managers will contact you shortly to provide more information.",
   network: "Our social networks",
 };
 

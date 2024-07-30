@@ -1,20 +1,21 @@
-/* poppins-regular - latin */
+/* open-sans-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Poppins";
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("./assets/fonts/poppins-v21-latin-regular.eot"); /* IE9 Compat Modes */
-  src: url("./assets/fonts/poppins-v21-latin-regular.eot?#iefix")
+  src: url("./assets/fonts/open-sans-v40-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("./assets/fonts/open-sans-v40-latin-regular.eot?#iefix")
       format("embedded-opentype"),
-    /* IE6-IE8 */ url("./assets/fonts/poppins-v21-latin-regular.woff2")
+    /* IE6-IE8 */ url("./assets/fonts/open-sans-v40-latin-regular.woff2")
       format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("./assets/fonts/poppins-v21-latin-regular.woff") format("woff"),
+      url("./assets/fonts/open-sans-v40-latin-regular.woff") format("woff"),
     /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
-      url("./assets/fonts/poppins-v21-latin-regular.ttf") format("truetype"),
+      url("./assets/fonts/open-sans-v40-latin-regular.ttf") format("truetype"),
     /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-      url("./assets/fonts/poppins-v21-latin-regular.svg#Poppins") format("svg"); /* Legacy iOS */
+      url("./assets/fonts/open-sans-v40-latin-regular.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
 }
 
 /* ROOT */
@@ -41,7 +42,7 @@ body {
   flex-direction: column;
   height: 100%;
   margin: 0;
-  font-family: "Poppins";
+  font-family: "Open Sans";
   font-weight: 400;
   background-color: #fff;
   width: 100%;
@@ -88,7 +89,7 @@ a {
 .site-title {
   width: 100%;
   max-width: 516px;
-  font-family: "Poppins";
+  font-family: "Open Sans";
   font-size: 40px;
   line-height: 45px;
   font-weight: 800;
@@ -103,7 +104,7 @@ a {
 }
 
 .site-subtitle {
-  font-family: "Poppins";
+  font-family: "Open Sans";
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -113,7 +114,7 @@ a {
 }
 
 form input {
-  font-family: "Poppins";
+  font-family: "Open Sans";
   font-size: 16px;
   line-height: 19px;
   color: #141416;
@@ -132,7 +133,7 @@ form input:hover {
 }
 
 form button {
-  font-family: "Poppins";
+  font-family: "Open Sans";
   width: 100%;
   margin-top: 40px;
   border-radius: 10px;
@@ -151,7 +152,7 @@ form button {
   border: 2px solid red;
 }
 .error-message {
-  font-family: "Poppins";
+  font-family: "Open Sans";
   margin: 5px 0;
   color: red;
   font-size: 12px;
@@ -165,7 +166,7 @@ form button {
 }
 
 .language-btns button {
-  font-family: 'Poppins';
+  font-family: "Open Sans";
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -181,7 +182,7 @@ form button {
 }
 
 .button-text {
-  font-family: 'Poppins';
+  font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
@@ -221,14 +222,14 @@ form button {
 }
 
 .thank-you__section-title {
-  font-family: 'Poppins';
+  font-family: "Open Sans";
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 12px;
 }
 
 .thank-you__section-subtitle {
-  font-family: 'Poppins';
+  font-family: "Open Sans";
   font-weight: 400;
   color: #777e91;
   margin-top: 0;
@@ -237,7 +238,7 @@ form button {
 }
 
 .thank-you__section button {
-  font-family: 'Poppins';
+  font-family: "Open Sans";
   width: 100%;
   max-width: 400px;
   border-radius: 10px;
@@ -254,13 +255,13 @@ form button {
 }
 
 .thank-you__section a {
-  font-family: 'Poppins';
+  font-family: "Open Sans";
   width: 100%;
   height: 100%;
 }
 
 .thank-you__section-social {
-  font-family: 'Poppins';
+  font-family: "Open Sans";
   font-size: 15px;
   font-weight: 400;
   color: #353945;
@@ -268,7 +269,7 @@ form button {
   margin-bottom: 8px;
 }
 .social-media a {
-  font-family: 'Poppins';
+  font-family: "Open Sans";
   background-color: #b1b5c3;
   height: 28px;
   width: 28px;
@@ -359,11 +360,11 @@ form button {
     padding-bottom: 8px;
   }
 
-  .desktop-version{
+  .desktop-version {
     display: none !important;
   }
 
-  .mobile-corusel-item{
+  .mobile-corusel-item {
     margin-top: 8px;
     height: 295px;
     width: 100%;
