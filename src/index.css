@@ -286,7 +286,15 @@ form button {
   }
 
   .register-row > div:first-child {
-    padding-right: 20px;
+    padding-left: 20px;
+    order: 2;
+  }
+
+  .register-row > div:last-child {
+    order: 1;
+  }
+
+  .register-row > div:first-child {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
