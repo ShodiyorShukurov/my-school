@@ -1,12 +1,17 @@
 import { Carousel } from "antd";
-import img1 from "../../assets/images/practicezone.png";
-import img2 from "../../assets/images/harkunlik.png";
-import img3 from "../../assets/images/ielts.png";
-import img4 from "../../assets/images/2 ta ustoz.png";
-import mobile1 from "../../assets/images/practice zone phone.png";
-import mobile2 from "../../assets/images/har kunlik phone.png";
-import mobile3 from "../../assets/images/ielts 7 phone.png";
-import mobile4 from "../../assets/images/2 ta ustoz phone.png";
+import img1 from "../../assets/images/har kunlik.png.jpg";
+import img2 from "../../assets/images/hard work web cover.jpg";
+import img3 from "../../assets/images/web cover phone (2).jpg";
+import img4 from "../../assets/images/practice zone web.jpg";
+import img5 from "../../assets/images/dastur web cover.jpg";
+import img6 from "../../assets/images/2 ta ustoz web cover.jpg";
+import mobile1 from "../../assets/images/web cover phone.jpg";
+import mobile2 from "../../assets/images/hard work web cover phone.jpg";
+import mobile3 from "../../assets/images/ielts 8 phone cover.jpg";
+import mobile4 from "../../assets/images/practice zone phone.png.jpg";
+import mobile5 from "../../assets/images/sifat phone.jpg";
+import mobile6 from "../../assets/images/2 ta ustoz web cover phone.jpg";
+
 
 const CarouselPage = () => (
   <>
@@ -18,11 +23,21 @@ const CarouselPage = () => (
         <div>
           <img className="corusel-item" src={img2} alt="img" />
         </div>
+
         <div>
           <img className="corusel-item" src={img3} alt="img" />
         </div>
+
         <div>
           <img className="corusel-item" src={img4} alt="img" />
+        </div>
+
+        <div>
+          <img className="corusel-item" src={img5} alt="img" />
+        </div>
+
+        <div>
+          <img className="corusel-item" src={img6} alt="img" />
         </div>
       </Carousel>
     </div>
@@ -40,6 +55,12 @@ const CarouselPage = () => (
         </div>
         <div>
           <img className="mobile-corusel-item" src={mobile4} alt="img" />
+        </div>
+        <div>
+          <img className="mobile-corusel-item" src={mobile5} alt="img" />
+        </div>
+        <div>
+          <img className="mobile-corusel-item" src={mobile6} alt="img" />
         </div>
       </Carousel>
     </div>
