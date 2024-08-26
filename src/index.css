@@ -84,12 +84,9 @@ a {
   width: 100%;
   max-width: 516px;
   font-family:"Inter", sans-serif !important;
-  font-size: 40px;
-  line-height: 45px;
   color: #373435;
   font-weight: 800;
   margin-top: 0px;
-  margin-bottom: 12px;
 }
 
 .site-title span {
@@ -281,6 +278,7 @@ form button {
   }
 
   .register-row > div:first-child {
+    max-height: 635px;
     padding-left: 20px;
     order: 2;
   }
@@ -305,7 +303,6 @@ form button {
 
   .site-title {
     font-size: 40px;
-    line-height: 45px;
     margin-bottom: 12px;
   }
 

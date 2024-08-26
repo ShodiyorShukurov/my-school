@@ -168,7 +168,7 @@ const ThankYou = () => {
             {data[changeValue].network}
           </h5>
           <div className="social-media" style={{ display: "flex" }}>
-            <a href="https://www.instagram.com/myschooluz.official/">
+            <a href="https://www.instagram.com/myschooluz?igsh=ZmNxdnhxYXpodGdz">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="14"
