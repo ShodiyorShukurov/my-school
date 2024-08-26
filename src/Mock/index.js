@@ -1,17 +1,17 @@
 const uzb = {
   title_1: "INGLIZ TILI",
-  title_2: " kurslarimizga ro’yxatdan o’ting!",
-  sub_title: "Ma'lumotlaringizni qoldiring va biz sizga qo'ng'iroq qilamiz!",
+  title_2: " kurslarimizga ro`yxatdan o`ting!",
+  sub_title: "Ma'lumotlaringizni qoldiring va biz sizga qo`ng`iroq qilamiz!",
   placeholder: "Ismingiz",
-  button_text: "Ro'yxatdan o'tish",
-  input_name: "«Ism» ni to'ldirishingiz kerak.",
+  button_text: "Ro`yxatdan o`tish",
+  input_name: "«Ism» ni to`ldirishingiz kerak.",
   input_phone:
-    "Telefon formati noto'g'ri. 998901234567 kabi bo'lishi kerak. Berilgan: 998",
-  text: "Darslar Toshkent shahrida eng qulay joylashuvlarda offlayn tarzda bo’lib o’tadi!",
+    "Telefon formati noto`g`ri. 998901234567 kabi bo'lishi kerak. Berilgan: 998",
+  text: "Darslar Toshkent shahrida eng qulay joylashuvlarda offlayn tarzda bo`lib o`tadi!",
   thank_you_title: "Yangi imkoniyatlar sari birinchi qadam bilan Tabriklaymiz!",
   thank_you_subtitle:
-    "Batafsil ma'lumot berish uchun bizning menejerlarimiz tez orada siz bilan bog'lanadi.",
-  thank_you_button: "Bilimingizni sinab ko'ring!",
+    "Batafsil ma'lumot berish uchun bizning menejerlarimiz tez orada siz bilan bog`lanadi.",
+  thank_you_button: "Bilimingizni sinab ko`ring!",
   network: "Bizning ijtimoiy tarmoqlar",
 };
 
