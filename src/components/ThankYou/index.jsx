@@ -17,7 +17,7 @@ const ThankYou = () => {
                 className="thank-you_logo"
                 src={logo}
                 alt="MY SCHOOL"
-                width={194}
+                width={184}
                 height={44}
               />
             </a>

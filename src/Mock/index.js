@@ -28,6 +28,7 @@ const rus = {
   thank_you_title: "Поздравляем с первым шагом на пути к новым возможностям!",
   thank_you_subtitle:
     "Наши менеджеры свяжутся с вами в ближайшее время для предоставления дополнительной информации.",
+  thank_you_button: "Проверьте свои знания!",
   network: "Мы в соцсетях",
 };
 
@@ -44,6 +45,7 @@ const eng = {
     "Congratulations on the first step towards new opportunities!",
   thank_you_subtitle:
     "Our managers will contact you shortly to provide more information.",
+  thank_you_button: "Test your knowledge!",
   network: "Our social networks",
 };
 
