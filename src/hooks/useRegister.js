@@ -36,32 +36,32 @@ const useRegister = () => {
     e.preventDefault();
 
     // if (validateForm()) {
-    //     try {
-    //       const rawResponse = await fetch(
-    //         "https://api.ept.myschoollc.uz/api/v1/student/register",
-    //         {
-    //           method: "POST",
-    //           headers: {
-    //             "Content-Type": "application/json",
-    //           },
-    //           body: JSON.stringify({ name: name, phone_number: phone }),
-    //         }
-    //       );
-
-    //       if (!rawResponse.ok) {
-    //         throw new Error(`HTTP error! status: ${rawResponse.status}`);
+    //   try {
+    //     const rawResponse = await fetch(
+    //       "https://api.ept.myschoollc.uz/api/v1/student/register",
+    //       {
+    //         method: "POST",
+    //         headers: {
+    //           "Content-Type": "application/json",
+    //         },
+    //         body: JSON.stringify({ name: name, phone_number: phone }),
     //       }
+    //     );
 
-    //       const content = await rawResponse.json();
-    //       if (content.status === 200) {
-    //         navigate("/thankyou");
-    //       }
-    //     } catch (error) {
-    //       console.error("Error during submission:", error);
+    //     if (!rawResponse.ok) {
+    //       throw new Error(`HTTP error! status: ${rawResponse.status}`);
     //     }
+
+    //     const content = await rawResponse.json();
+    //     if (content.status === 200) {
+    //       navigate("/thankyou");
+    //     }
+    //   } catch (error) {
+    //     console.error("Error during submission:", error);
+    //   }
     // }
 
-    if(phone,name ){
+    if(validateForm()){
       navigate("/thankyou");
     }
   };
