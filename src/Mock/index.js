@@ -1,9 +1,9 @@
 const uzb = {
   title_1: "INGLIZ TILI",
-  title_2: " kurslarimizga ro`yxatdan o`ting!",
+  title_2: " kurslarimizga ro'yxatdan o'ting!",
   sub_title: "Ma'lumotlaringizni qoldiring va biz sizga qo`ng`iroq qilamiz!",
   placeholder: "Ismingiz",
-  button_text: "Ro`yxatdan o`tish",
+  button_text: "Ro'yxatdan o'tish",
   input_name: "«Ism» ni to`ldirishingiz kerak.",
   input_phone:
     "Telefon formati noto`g`ri. 998901234567 kabi bo'lishi kerak. Berilgan: 998",
